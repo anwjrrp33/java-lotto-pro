@@ -47,4 +47,12 @@ public class WinningLotto {
             throw new IllegalArgumentException(WINNING_AND_BOUNS_NOT_SAME);
         }
     }
+
+    public Lotto getWinningLotto() {
+        return winningLotto;
+    }
+
+    public LottoNumber getBonusBall() {
+        return bonusBall;
+    }
 }
